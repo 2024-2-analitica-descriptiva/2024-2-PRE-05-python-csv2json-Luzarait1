@@ -4,7 +4,7 @@ import csv
 import json
 
 from nicegui import ui
-# 
+
 
 def convert_csv_2_json(input_file):
     """Converts a CSV file to a JSON file"""
