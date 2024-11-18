@@ -1,3 +1,5 @@
+"""Script para convertir un archivo CSV a JSON"""
+
 import csv
 import json
 
@@ -38,5 +40,6 @@ def app():
     ui.button("Convert", on_click=lambda: convert_csv_2_json(filename.value))
     ui.run()
 
-#new other
+
 app()
+
